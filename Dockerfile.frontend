@@ -1,0 +1,41 @@
+# ============================
+# 1. Base image for Streamlit UI
+# ============================
+FROM python:3.10-slim
+
+# Avoid Python buffering
+ENV PYTHONUNBUFFERED=1
+
+# ============================
+# 2. System dependencies
+# ============================
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# ============================
+# 3. Working directory
+# ============================
+WORKDIR /frontend
+
+# ============================
+# 4. Install frontend requirements
+# ============================
+COPY requirements.frontend.txt /frontend/requirements.frontend.txt
+RUN pip install --no-cache-dir -r requirements.frontend.txt
+
+# ============================
+# 5. Copy UI source code
+# ============================
+COPY frontend /frontend/frontend
+COPY config.yaml /frontend/config.yaml
+
+# ============================
+# 6. Expose port
+# ============================
+EXPOSE 8501
+
+# ============================
+# 7. Run Streamlit
+# ============================
+CMD ["streamlit", "run", "frontend/app.py", "--server.port=8501", "--server.address=0.0.0.0"]

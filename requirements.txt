@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+torch
+torchvision
+pillow
+numpy==1.24.4
+pandas
+transformers
+streamlit
+python-multipart
+requests
+matplotlib
+scikit-learn
+seaborn
+opencv-python-headless==4.8.1.78
+

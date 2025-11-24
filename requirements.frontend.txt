@@ -1,0 +1,6 @@
+streamlit
+requests
+pillow
+numpy==1.24.4
+matplotlib
+pyyaml

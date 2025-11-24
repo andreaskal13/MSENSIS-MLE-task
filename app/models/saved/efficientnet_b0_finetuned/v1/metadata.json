@@ -1,0 +1,12 @@
+{
+  "model_name": "efficientnet_b0_finetuned",
+  "version": "v1",
+  "artifact_dir": "app/models/saved\\efficientnet_b0_finetuned\\v1",
+  "weights_path": "app/models/saved\\efficientnet_b0_finetuned.pt",
+  "img_size": 192,
+  "batch_size": 32,
+  "max_samples": 2000,
+  "val_split": 0.2,
+  "seed": 42,
+  "device": "cpu"
+}

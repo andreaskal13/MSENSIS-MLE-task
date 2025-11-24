@@ -1,0 +1,36 @@
+services:
+  catsdogs-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: catsdogs-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Correct mount path: ONLY ONE "app"
+      - ./app/models/saved:/app/models/saved
+      - ./data:/app/data
+    networks:
+      - catsdogs-net
+
+  catsdogs-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: catsdogs-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      BACKEND_URL: "http://catsdogs-backend:8000"
+    depends_on:
+      - catsdogs-backend
+    volumes:
+      - ./app:/app 
+      - ./data:/app/data
+    networks:
+      - catsdogs-net
+
+
+networks:
+  catsdogs-net:
+    driver: bridge

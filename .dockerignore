@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+.env
+.vscode/
+.idea/
+.DS_Store
+
+data/user_datasets/
+

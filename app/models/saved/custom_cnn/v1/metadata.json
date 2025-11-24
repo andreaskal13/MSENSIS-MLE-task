@@ -1,0 +1,12 @@
+{
+  "model_name": "custom_cnn",
+  "version": "v1",
+  "artifact_dir": "app/models/saved\\custom_cnn\\v1",
+  "weights_path": "app/models/saved\\custom_cnn.pt",
+  "img_size": 64,
+  "batch_size": 32,
+  "max_samples": 2000,
+  "val_split": 0.2,
+  "seed": 42,
+  "device": "cpu"
+}

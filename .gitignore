@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# IDE configs
+.vscode/
+.idea/
+.DS_Store
+
+# ENV
+.env
+.venv/
+venv/
+catdog/
+
+# DATASETS (too big for GitHub)
+data/images/
+data/user_datasets/
+data/*.zip

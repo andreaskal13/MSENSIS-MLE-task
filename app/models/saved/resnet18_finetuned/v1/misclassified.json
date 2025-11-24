@@ -1,0 +1,146 @@
+[
+  {
+    "image_name": "12949.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.22561725974082947
+  },
+  {
+    "image_name": "22511.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.2399524301290512
+  },
+  {
+    "image_name": "22752.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.3482762575149536
+  },
+  {
+    "image_name": "14370.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.42140740156173706
+  },
+  {
+    "image_name": "21427.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.4319126605987549
+  },
+  {
+    "image_name": "20263.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.20903155207633972
+  },
+  {
+    "image_name": "18841.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.47458210587501526
+  },
+  {
+    "image_name": "17951.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.21597138047218323
+  },
+  {
+    "image_name": "1121.jpg",
+    "true_label": 0,
+    "pred_label": 1,
+    "prob_dog": 0.8245539665222168
+  },
+  {
+    "image_name": "15158.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.26949623227119446
+  },
+  {
+    "image_name": "15600.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.3042552173137665
+  },
+  {
+    "image_name": "15049.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.485683798789978
+  },
+  {
+    "image_name": "18407.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.09407883882522583
+  },
+  {
+    "image_name": "23063.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.2822273075580597
+  },
+  {
+    "image_name": "12868.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.37773820757865906
+  },
+  {
+    "image_name": "21333.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.2801312208175659
+  },
+  {
+    "image_name": "23103.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.4085928499698639
+  },
+  {
+    "image_name": "22758.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.37601253390312195
+  },
+  {
+    "image_name": "20624.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.08654038608074188
+  },
+  {
+    "image_name": "15090.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.37015360593795776
+  },
+  {
+    "image_name": "19644.jpg",
+    "true_label": 1,
+    "pred_label": 0,
+    "prob_dog": 0.30204206705093384
+  },
+  {
+    "image_name": "9757.jpg",
+    "true_label": 0,
+    "pred_label": 1,
+    "prob_dog": 0.9251152873039246
+  },
+  {
+    "image_name": "6457.jpg",
+    "true_label": 0,
+    "pred_label": 1,
+    "prob_dog": 0.5523955225944519
+  },
+  {
+    "image_name": "8127.jpg",
+    "true_label": 0,
+    "pred_label": 1,
+    "prob_dog": 0.7104313969612122
+  }
+]
